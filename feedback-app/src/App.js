@@ -10,7 +10,7 @@ function App() {
     <>
       <Header text="hello work" />
       <div className="container">
-        <FeedbackList />
+        <FeedbackList feedback={feedback} />
       </div>
     </>
   );
